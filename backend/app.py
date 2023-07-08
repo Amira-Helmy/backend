@@ -1,7 +1,7 @@
 import datetime
 import os
 from flask import Flask, jsonify, Flask, request, Response
-from flask_restaful import Resource , Api
+from flask_restful import Resource , Api
 from flask_cors import CORS
 
 from email.mime.text import MIMEText
